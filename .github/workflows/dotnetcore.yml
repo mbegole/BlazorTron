@@ -17,6 +17,6 @@ jobs:
         uses: rohith/publish-nuget@v2.0.0
         with:
           # Filepath of the project to be packaged, relative to root of repository
-          PROJECT_FILE_PATH: BlazorTron/BlazorTron.csproj 
+          PROJECT_FILE_PATH: Blazortron/Blazortron.csproj 
           # API key for the NuGet feed
           NUGET_KEY: ${{secrets.NuGet_API_Key}}
