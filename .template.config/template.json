@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Maxx Begole",
+  "classifications": [
+    "Web",
+    "Blazor",
+    "Electron"
+  ],
+  "identity": "MaxxBegole.Blazortron.CSharp",
+  "name": "BlazorTron",
+  "shortName": "blazortron",
+  "sourceName": "Blazortron",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

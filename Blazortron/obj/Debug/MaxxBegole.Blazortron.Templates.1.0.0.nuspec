@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MaxxBegole.Blazortron.Templates</id>
+    <version>1.0.0</version>
+    <title>BlazorTron Template</title>
+    <authors>Maxx Begole</authors>
+    <owners>Maxx Begole</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple template solution for a Blazor application running in Electron.</description>
+    <tags>dotnet-new templates electron blazor</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="ElectronNET.Blazor" version="3.0.0-preview7.19365.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.MaxxBegole.Blazortron.Templates.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.MaxxBegole.Blazortron.Templates.props" target="build\MaxxBegole.Blazortron.Templates.props" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.MaxxBegole.Blazortron.Templates.props" target="buildMultiTargeting\MaxxBegole.Blazortron.Templates.props" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.MaxxBegole.Blazortron.Templates.props" target="buildTransitive\MaxxBegole.Blazortron.Templates.props" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\bootstrap\bootstrap.min.css" target="staticwebassets\css\bootstrap\bootstrap.min.css" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\bootstrap\bootstrap.min.css.map" target="staticwebassets\css\bootstrap\bootstrap.min.css.map" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\open-iconic\FONT-LICENSE" target="staticwebassets\css\open-iconic\FONT-LICENSE\FONT-LICENSE" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css" target="staticwebassets\css\open-iconic\font\css\open-iconic-bootstrap.min.css" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\open-iconic\font\fonts\open-iconic.eot" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.eot" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\open-iconic\font\fonts\open-iconic.otf" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.otf" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\open-iconic\font\fonts\open-iconic.svg" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.svg" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.ttf" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\open-iconic\font\fonts\open-iconic.woff" target="staticwebassets\css\open-iconic\font\fonts\open-iconic.woff" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\open-iconic\ICON-LICENSE" target="staticwebassets\css\open-iconic\ICON-LICENSE\ICON-LICENSE" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\open-iconic\README.md" target="staticwebassets\css\open-iconic\README.md" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\css\site.css" target="staticwebassets\css\site.css" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\wwwroot\favicon.ico" target="staticwebassets\favicon.ico" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\appsettings.json" target="content\appsettings.json" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\electron.manifest.json" target="content\electron.manifest.json" />
+    <file src="A:\Users\Maxx\source\repos\AdventurersCompanion\Blazortron\Blazortron\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+  </files>
+</package>
