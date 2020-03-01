@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>  
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.0</PackageVersion>
+    <Version>1.0.0</Version>
     <PackageId>MaxxBegole.Blazortron.Templates</PackageId>
     <Title>BlazorTron Template</Title>
     <Authors>Me</Authors>
